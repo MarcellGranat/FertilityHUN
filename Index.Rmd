@@ -3,10 +3,7 @@ title: "A születési mutatók alakulása és az azt kísérő változások Magy
 author: "Granát Marcell"
 output: bookdown::gitbook
 site: bookdown::bookdown_site
-editor_options: 
-  chunk_output_type: inline
 ---
-
 
 # Absztrakt {#index}
 
