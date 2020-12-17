@@ -1,0 +1,16 @@
+book_filename: "my-book.Rmd"
+edit: https://github.com/MarcellGranat/FertilityHUN/edit/master/%s
+output_dir: "docs"
+toc:
+  collapse: section
+  before: |
+    <p align="center">
+      <img width="270" height="270" src="logo.png">
+    </p>
+download: ["rmd"]
+sharing:
+  github: yes
+  facebook: yes
+  twitter: yes
+  all: no
+rmd_files: ["Index.Rmd", "Chapter-1.Rmd"]
