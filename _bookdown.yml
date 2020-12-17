@@ -13,4 +13,4 @@ sharing:
   facebook: yes
   twitter: yes
   all: no
-rmd_files: ["Index.Rmd", "Chapter-1.Rmd"]
+rmd_files: ["index.Rmd", "Chapter-1.Rmd"]
