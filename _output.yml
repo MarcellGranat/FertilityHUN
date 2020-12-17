@@ -1,0 +1,16 @@
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: section
+      before: |
+        <p align="center">
+          <img width="270" height="270" src="logo.png">
+        </p>
+    edit: https://github.com/MarcellGranat/FertilityHUN/edit/master/%s
+    download: ["rmd"]
+    sharing:
+      github: yes
+      facebook: yes
+      twitter: yes
+      all: no
+  rmd_files: ["Index.Rmd", "Chapter-1.Rmd"]
