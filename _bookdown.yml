@@ -7,9 +7,3 @@ sharing:
   twitter: yes
   all: no
 rmd_files: ["index.Rmd", "Chapter-1.Rmd"]
-config:
-    toc:
-      collapse: none
-    sharing:
-      github: yes
-      facebook: no

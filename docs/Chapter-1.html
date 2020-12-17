@@ -29,7 +29,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
-  <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
 <link rel="prev" href="index.html"/>
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
@@ -64,6 +64,9 @@
       <nav role="navigation">
 
 <ul class="summary">
+<img src="logo.png" width="270" height="270">
+
+<li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Absztrakt</a></li>
 <li class="chapter" data-level="2" data-path="Chapter-1.html"><a href="Chapter-1.html"><i class="fa fa-check"></i><b>2</b> Bevezetés</a></li>
 </ul>
@@ -131,14 +134,14 @@ Ezen tanulmány során elemzést végzek a Magyarországot jellemző születési
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
+"github": true,
 "facebook": true,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"all": false
 },
 "fontsettings": {
 "theme": "white",
@@ -159,7 +162,7 @@ gitbook.start({
 },
 "download": null,
 "toc": {
-"collapse": "subsection"
+"collapse": "section"
 }
 });
 });
