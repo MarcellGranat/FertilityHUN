@@ -11,18 +11,10 @@ favicon: "logo.ico"
 
 
 ```{r include=FALSE, warning=F}
-knitr::opts_chunk$set(echo = F, comment = "", warning = F, message = F, cache = F, dev = "png", error = T)
+knitr::opts_chunk$set(echo = T, comment = "", warning = F, message = F, cache = F, dev = "png", error = T, fig.height=7, fig.width=10)
 library(tidyverse)
-library(ggthemes)
-theme_set(ggthemes::theme_economist() + theme(
-  legend.title = element_blank(),
-  plot.title = element_text(margin = margin(t = 0, r = 0, b = 10, l = 0)),
-  axis.title = element_text(margin = margin(t = 10, r = 10, b = 0, l = 0)),
-  axis.ticks.length = unit(5, "points"),
-  panel.grid.major = element_line(colour = "grey", 
-                                  size = rel(1.75))
-))
 load('fertility.Rdata')
+theme_set(theme_grey() + theme(legend.position = "bottom", legend.title = element_blank(), legend.box = "vertical"))
 ```
 
 ***

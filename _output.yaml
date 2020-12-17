@@ -3,7 +3,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <img src="logo.png" width="270" height="270">
+        <img src="logo.png" width="300" height="300">
     sharing:
       github: yes
       facebook: yes
